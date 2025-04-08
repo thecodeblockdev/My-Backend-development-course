@@ -1,0 +1,8 @@
+views => directory where we keep all of our templates
+database connection database
+
+login routes
+password routes
+reset password
+
+notifications

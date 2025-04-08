@@ -1,0 +1,10 @@
+Modules are different types of files that contains different functionality.
+
+3 Types of Modules
+1.) Node's Core Modules
+2.) Our own Modules
+3.) Global NPM Modules
+
+Reason:
+1.) Our files can easily grow large upon writing a lot of code, and to manage
+these code in a proper way we can leverage the functionality of Modules in our project.
