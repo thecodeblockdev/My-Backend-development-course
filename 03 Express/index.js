@@ -34,7 +34,7 @@ app.get("/search", (req, res) => {
 });
 // Create multiple routes such as contact, about
 
-// Server configured here
+// Server configured heres
 app.listen("3000", () => {
     console.log(`Server is listening on port 3000`);
 });

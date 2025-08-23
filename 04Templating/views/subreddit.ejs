@@ -1,0 +1,19 @@
+<%- include("partials/head")  %>
+    <body>
+         <%- include("partials/nav")  %>
+        <h1>You are browsing the <i><%= name %></i> subreddit</h1>
+        <h3>Total Subscribers: <i><%= subscribers %> </i></h3>
+        <p>Description: <b><%= description %></b></p>
+
+        <hr />
+        <h2>All the Posts</h2>
+
+        <% for (let allPosts of posts){ %>
+        <article>
+            <h2><%= allPosts.title %> - Written by <%= allPosts.author %></h2>
+            <h3><%= allPosts.description %></h3>
+            <img src="<%= allPosts.image_url %>" alt="" />
+        </article>
+        <% } %>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<%- include("partials/head")  %>
+    <body>
+         <%- include("partials/nav")  %>
+        <h1>All the fruits</h1>
+        <ul>
+            <% for (let individualFruits of fruitsData) { %>
+            <li><%= individualFruits %></li>
+            <% } %>
+        </ul>
+    </body>
+</html>
+<!--  -->
