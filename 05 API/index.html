@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Get and Post</title>
+    </head>
+    <body>
+        <h1>Get and Post Request</h1>
+        <h1>Get</h1>
+        <form action="http://localhost:5500/test" method="get">
+            <!-- ?username=codeblockdev -->
+            <!-- ?year=2019 -->
+            <input type="text" name="username" />
+            <input type="number" name="year" />
+            <input type="number" name="subs" />
+            <button>SUBMIT</button>
+        </form>
+        <h2>Post</h2>
+        <form action="http://localhost:5500/test" method="post">
+            <input type="text" name="username" />
+            <input type="number" name="year" />
+            <button>SUBMIT</button>
+        </form>
+    </body>
+</html>
