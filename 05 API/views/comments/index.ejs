@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>All the comments</title>
+    </head>
+    <body>
+        <h1>Showing all the comments</h1>
+
+        <ul>
+            <% for (let c of comments_array) { %>
+            <li>
+                <b><%= c.username %></b> == <%= c.comments %>
+                <a href="/comments/<%= c.id %>">Details</a>
+            </li>
+            <%}%>
+        </ul>
+        <a href="/comments">All the comments</a>
+        <a href="/comments/new">Make a comment</a>
+    </body>
+</html>
